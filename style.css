@@ -56,11 +56,11 @@ img{
 }
 
 .navbar ul li a{
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .navbar ul li a:hover{
-    color: #EE13C4;
+    color: blanchedalmond;
 }
 
 #menu{
@@ -104,8 +104,8 @@ img{
     padding: 13px 30px;
     background: linear-gradient(
         90deg,
-        rgba(244,77,243,1) 0%,
-        rgba(225,0,182,1) 100%
+        rgb(77, 244, 174) 0%,
+        rgb(139, 225, 0) 100%
     );
     color: #FFFFFF;
     font-size: 18px;
@@ -118,7 +118,7 @@ img{
     flex-basis: 50%;
 }
 
-@media(max-width: 991px){
+@media(max-width: 1200px){
     .menu{
         padding: 20px;
         position: relative;
@@ -133,7 +133,10 @@ img{
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #EE13C4;
+        background: linear-gradient(
+            rgb(83, 244, 77) 0%,
+            rgb(0, 225, 19) 60%
+        );
         display: none;
     }
 
