@@ -118,7 +118,7 @@ img{
     flex-basis: 50%;
 }
 
-@media(max-width: 1500px){
+@media(max-width: 1200px){
     .menu{
         padding: 20px;
         position: relative;
